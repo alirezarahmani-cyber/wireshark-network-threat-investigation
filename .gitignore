@@ -1,0 +1,22 @@
+# Packet captures and archives
+*.pcap
+*.pcapng
+*.cap
+*.zip
+
+# Potentially unsafe payloads
+*.exe
+*.dll
+*.ps1
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Temporary and system files
+.DS_Store
+Thumbs.db
+# Generated analysis results
+output/
